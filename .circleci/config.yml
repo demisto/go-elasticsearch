@@ -2,7 +2,7 @@ version: 2.1
 
 executors:
   golang:
-    working_directory: /tmp/github.com/elastic/go-elasticsearch
+    working_directory: /tmp/github.com/demisto/go-elasticsearch
     docker:
       - image: circleci/golang:1.11
 
@@ -113,7 +113,7 @@ jobs:
           name: Build the Package
           command: |
             go mod verify
-            go build -v github.com/elastic/go-elasticsearch/...
+            go build -v github.com/demisto/go-elasticsearch/...
 
   # -----------------------------------------------------------------------------------------------
   # ----- LINT ------------------------------------------------------------------------------------

@@ -1,7 +1,7 @@
 /*
 Package estransport provides the transport layer for the Elasticsearch client.
 
-It is automatically included in the client provided by the github.com/elastic/go-elasticsearch package
+It is automatically included in the client provided by the github.com/demisto/go-elasticsearch package
 and is not intended for direct use: to configure the client, use the elasticsearch.Config struct.
 
 The default HTTP transport of the client is http.Transport; use the Transport option to customize it;

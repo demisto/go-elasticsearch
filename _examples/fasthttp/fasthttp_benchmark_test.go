@@ -7,8 +7,8 @@ package fasthttp_test
 import (
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/_examples/fasthttp"
+	"github.com/demisto/go-elasticsearch/v8"
+	"github.com/demisto/go-elasticsearch/v8/_examples/fasthttp"
 )
 
 func BenchmarkHTTPClient(b *testing.B) {

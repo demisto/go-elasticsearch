@@ -18,8 +18,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/estransport"
+	"github.com/demisto/go-elasticsearch/v8"
+	"github.com/demisto/go-elasticsearch/v8/estransport"
 )
 
 func main() {

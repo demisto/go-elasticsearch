@@ -1,11 +1,11 @@
-module github.com/elastic/go-elasticsearch/v8/_examples/encoding
+module github.com/demisto/go-elasticsearch/v8/_examples/encoding
 
 go 1.11
 
-replace github.com/elastic/go-elasticsearch/v8 => ../..
+replace github.com/demisto/go-elasticsearch/v8 => ../..
 
 require (
-	github.com/elastic/go-elasticsearch/v8 master
+	github.com/demisto/go-elasticsearch/v8 master
 
 	github.com/fatih/color v1.7.0
 

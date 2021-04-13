@@ -18,8 +18,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/elastic/go-elasticsearch/v8/internal/cmd/generate/commands"
-	"github.com/elastic/go-elasticsearch/v8/internal/cmd/generate/utils"
+	"github.com/demisto/go-elasticsearch/v8/internal/cmd/generate/commands"
+	"github.com/demisto/go-elasticsearch/v8/internal/cmd/generate/utils"
 )
 
 var (
@@ -43,7 +43,7 @@ func init() {
 		pkgNames = strings.Split(pkgNamesEnv, ",")
 	} else {
 		pkgNames = []string{
-			"github.com/elastic/go-elasticsearch/v8/esapi",
+			"github.com/demisto/go-elasticsearch/v8/esapi",
 		}
 	}
 

@@ -20,7 +20,7 @@
           &lt;commitId&gt;, etc.)
     properties:
     - github:
-        url: https://github.com/elastic/go-elasticsearch/
+        url: https://github.com/demisto/go-elasticsearch/
     - inject:
         properties-content: HOME=$JENKINS_HOME
     concurrent: true

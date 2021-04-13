@@ -13,7 +13,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v8/estransport"
+	"github.com/demisto/go-elasticsearch/v8/estransport"
 )
 
 var defaultResponse = http.Response{

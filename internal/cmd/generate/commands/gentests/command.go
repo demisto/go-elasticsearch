@@ -19,8 +19,8 @@ import (
 	"github.com/spf13/cobra"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/elastic/go-elasticsearch/v8/internal/cmd/generate/commands"
-	"github.com/elastic/go-elasticsearch/v8/internal/cmd/generate/utils"
+	"github.com/demisto/go-elasticsearch/v8/internal/cmd/generate/commands"
+	"github.com/demisto/go-elasticsearch/v8/internal/cmd/generate/utils"
 )
 
 var (

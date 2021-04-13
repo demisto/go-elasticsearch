@@ -13,7 +13,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/elastic/go-elasticsearch/v8/internal/cmd/generate/utils"
+	"github.com/demisto/go-elasticsearch/v8/internal/cmd/generate/utils"
 )
 
 var reFilename = regexp.MustCompile(`\d*_?(.+)\.ya?ml`)

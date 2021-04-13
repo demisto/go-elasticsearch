@@ -17,7 +17,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/elastic/go-elasticsearch/v8/internal/version"
+	"github.com/demisto/go-elasticsearch/v8/internal/version"
 )
 
 // Version returns the package version as a string.
