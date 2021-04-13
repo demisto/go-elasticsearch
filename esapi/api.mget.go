@@ -152,6 +152,10 @@ func (r MgetRequest) Do(ctx context.Context, transport Transport) (*Response, er
 				for _, v := range vv {
 					req.Header.Add(k, v)
 				}
+				if k == "Content-Length" && len(vv) > 0 {
+					num, _ := strconv.Atoi(vv[0])
+					req.ContentLength = int64(num)
+				}
 			}
 		}
 	}
