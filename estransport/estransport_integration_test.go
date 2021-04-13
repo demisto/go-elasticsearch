@@ -17,8 +17,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/elastic/go-elasticsearch/v8/estransport"
-	"github.com/elastic/go-elasticsearch/v8/esutil"
+	"github.com/demisto/go-elasticsearch/v8/estransport"
+	"github.com/demisto/go-elasticsearch/v8/esutil"
 )
 
 var (

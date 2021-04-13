@@ -15,7 +15,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/elastic/go-elasticsearch/v8"
+	"github.com/demisto/go-elasticsearch/v8"
 )
 
 // This example demonstrates how to provide a custom transport implementation to the client

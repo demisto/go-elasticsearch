@@ -1,7 +1,7 @@
-module github.com/elastic/go-elasticsearch/v8/_examples/clusterstatus
+module github.com/demisto/go-elasticsearch/v8/_examples/clusterstatus
 
 go 1.11
 
-replace github.com/elastic/go-elasticsearch/v8 => ../..
+replace github.com/demisto/go-elasticsearch/v8 => ../..
 
-require github.com/elastic/go-elasticsearch/v8 master
+require github.com/demisto/go-elasticsearch/v8 master

@@ -13,7 +13,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/elastic/go-elasticsearch/v8"
+	"github.com/demisto/go-elasticsearch/v8"
 )
 
 func main() {

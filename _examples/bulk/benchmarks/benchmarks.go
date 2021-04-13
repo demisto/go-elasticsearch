@@ -28,12 +28,12 @@ import (
 	"github.com/mailru/easyjson"
 	"github.com/valyala/fasthttp"
 
-	"github.com/elastic/go-elasticsearch/v8"
-	"github.com/elastic/go-elasticsearch/v8/estransport"
-	"github.com/elastic/go-elasticsearch/v8/esutil"
+	"github.com/demisto/go-elasticsearch/v8"
+	"github.com/demisto/go-elasticsearch/v8/estransport"
+	"github.com/demisto/go-elasticsearch/v8/esutil"
 
-	"github.com/elastic/go-elasticsearch/v8/_examples/bulk/benchmarks/model"
-	"github.com/elastic/go-elasticsearch/v8/_examples/bulk/benchmarks/runner"
+	"github.com/demisto/go-elasticsearch/v8/_examples/bulk/benchmarks/model"
+	"github.com/demisto/go-elasticsearch/v8/_examples/bulk/benchmarks/runner"
 )
 
 type humanBytes uint64

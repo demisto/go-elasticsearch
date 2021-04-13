@@ -20,8 +20,8 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/tools/imports"
 
-	"github.com/elastic/go-elasticsearch/v8/internal/cmd/generate/commands"
-	"github.com/elastic/go-elasticsearch/v8/internal/cmd/generate/utils"
+	"github.com/demisto/go-elasticsearch/v8/internal/cmd/generate/commands"
+	"github.com/demisto/go-elasticsearch/v8/internal/cmd/generate/utils"
 )
 
 var (

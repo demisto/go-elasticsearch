@@ -19,7 +19,7 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/elastic/go-elasticsearch/v8"
+	"github.com/demisto/go-elasticsearch/v8"
 )
 
 // CustomLogger implements the estransport.Logger interface.

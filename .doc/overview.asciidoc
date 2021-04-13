@@ -4,8 +4,8 @@
 This is the official Go client for {es}.
 
 Full documentation is hosted at 
-https://github.com/elastic/go-elasticsearch[GitHub]
-and https://godoc.org/github.com/elastic/go-elasticsearch[GoDoc]. This 
+https://github.com/demisto/go-elasticsearch[GitHub]
+and https://godoc.org/github.com/demisto/go-elasticsearch[GoDoc]. This
 documentation provides only an overview of features.
 
 [discrete]
@@ -27,7 +27,7 @@ package main
 import (
   "log"
 
-  "github.com/elastic/go-elasticsearch/v7"
+  "github.com/demisto/go-elasticsearch/v7"
 )
 
 func main() {
@@ -38,15 +38,15 @@ func main() {
 
 [NOTE]
 Please have a look at the collection of comprehensive examples in the repository
-at https://github.com/elastic/go-elasticsearch/tree/master/_examples.
+at https://github.com/demisto/go-elasticsearch/tree/master/_examples.
 
 
 [discrete]
 === Resources
 
-* https://github.com/elastic/go-elasticsearch[Source Code]
-* https://godoc.org/github.com/elastic/go-elasticsearch[API Documentation]
-* https://github.com/elastic/go-elasticsearch/tree/master/_examples[Examples and Recipes]
+* https://github.com/demisto/go-elasticsearch[Source Code]
+* https://godoc.org/github.com/demisto/go-elasticsearch[API Documentation]
+* https://github.com/demisto/go-elasticsearch/tree/master/_examples[Examples and Recipes]
 
 
 [discrete]
