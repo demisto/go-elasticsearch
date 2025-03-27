@@ -15,9 +15,9 @@ jobs:
       ELASTICSEARCH_URL: http://localhost:9200
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
         with: { fetch-depth: 1 }
-      - uses: actions/setup-go@v2.1.3
+      - uses: actions/setup-go@37335c7bb261b353407cff977110895fa0b4f7d8 # v2.1.3
         with: { go-version: '1.x' }
       - run: go version
       - name: Increase system limits
@@ -47,9 +47,9 @@ jobs:
         ELASTICSEARCH_URL: https://elastic:elastic@localhost:9200
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@v2
+        - uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
           with: { fetch-depth: 1 }
-        - uses: actions/setup-go@v2.1.3
+        - uses: actions/setup-go@37335c7bb261b353407cff977110895fa0b4f7d8 # v2.1.3
           with: { go-version: '1.x' }
         - run: go version
         - name: Increase system limits
